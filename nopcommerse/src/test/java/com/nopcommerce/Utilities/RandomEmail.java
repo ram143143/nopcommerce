@@ -5,13 +5,13 @@ import org.apache.commons.lang.RandomStringUtils;
 public class RandomEmail {
 	
 	public  String newemail1() {
-		String a=RandomStringUtils.randomAlphabetic(5);
-		String email1=a.concat("@gmail.com");
+		String email1=RandomStringUtils.randomAlphabetic(5).concat("@gmail.com");
+		
 		return email1;
 	}
 	public  String newemail2() {
-		String a=RandomStringUtils.randomAlphabetic(5);
-		String email2=a.concat("@gmail.com");
+		String email2=RandomStringUtils.randomAlphabetic(5).concat("@gmail.com");
+		
 		return email2;
 	}
 
