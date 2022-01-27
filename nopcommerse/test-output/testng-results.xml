@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[entered first name]]>
+    </line>
+    <line>
+      <![CDATA[entered last name]]>
+    </line>
+    <line>
+      <![CDATA[entered email]]>
+    </line>
+    <line>
+      <![CDATA[entered password]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password]]>
+    </line>
+    <line>
+      <![CDATA[Click register button]]>
+    </line>
+    <line>
+      <![CDATA[Checking error message for First Name]]>
+    </line>
+    <line>
+      <![CDATA[Checking error for Last Name]]>
+    </line>
+    <line>
+      <![CDATA[Cheking for Email]]>
+    </line>
+    <line>
+      <![CDATA[Checking error for Password]]>
+    </line>
+    <line>
+      <![CDATA[Checking error for Confirm Password]]>
+    </line>
+    <line>
+      <![CDATA[selected gender female]]>
+    </line>
+    <line>
+      <![CDATA[entered first name]]>
+    </line>
+    <line>
+      <![CDATA[entered last name]]>
+    </line>
+    <line>
+      <![CDATA[entered birth day]]>
+    </line>
+    <line>
+      <![CDATA[entered birth month]]>
+    </line>
+    <line>
+      <![CDATA[entered birth year]]>
+    </line>
+    <line>
+      <![CDATA[entered email]]>
+    </line>
+    <line>
+      <![CDATA[entered password]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password]]>
+    </line>
+    <line>
+      <![CDATA[Click register button]]>
+    </line>
+    <line>
+      <![CDATA[entered first name]]>
+    </line>
+    <line>
+      <![CDATA[entered last name]]>
+    </line>
+    <line>
+      <![CDATA[entered email]]>
+    </line>
+    <line>
+      <![CDATA[entered password]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password]]>
+    </line>
+    <line>
+      <![CDATA[Click register button]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60082" started-at="2022-01-27T11:43:26 IST" finished-at="2022-01-27T11:44:26 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60082" started-at="2022-01-27T11:43:26 IST" finished-at="2022-01-27T11:44:26 IST">
+      <class name="com.nopcommerce.TestCases.TC_002_Registration">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.nopcommerce.TestCases.TC_002_Registration@2e3fc542]" name="browsersetup" is-config="true" duration-ms="6700" started-at="2022-01-27T11:43:56 IST" finished-at="2022-01-27T11:44:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.nopcommerce.TestCases.TC_002_Registration@2e3fc542]" name="registration" duration-ms="7466" started-at="2022-01-27T11:44:03 IST" finished-at="2022-01-27T11:44:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[selected gender female]]>
+            </line>
+            <line>
+              <![CDATA[entered first name]]>
+            </line>
+            <line>
+              <![CDATA[entered last name]]>
+            </line>
+            <line>
+              <![CDATA[entered birth day]]>
+            </line>
+            <line>
+              <![CDATA[entered birth month]]>
+            </line>
+            <line>
+              <![CDATA[entered birth year]]>
+            </line>
+            <line>
+              <![CDATA[entered email]]>
+            </line>
+            <line>
+              <![CDATA[entered password]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password]]>
+            </line>
+            <line>
+              <![CDATA[Click register button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="successpage()[pri:0, instance:com.nopcommerce.TestCases.TC_002_Registration@2e3fc542]" name="successpage" duration-ms="44" started-at="2022-01-27T11:44:10 IST" depends-on-methods="com.nopcommerce.TestCases.TC_002_Registration.registration" finished-at="2022-01-27T11:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nopcommerce.TestCases.TC_002_Registration@2e3fc542]" name="teardown" is-config="true" duration-ms="359" started-at="2022-01-27T11:44:10 IST" finished-at="2022-01-27T11:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.TestCases.TC_002_Registration -->
+      <class name="com.nopcommerce.TestCases.TC_003_Registration">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.nopcommerce.TestCases.TC_003_Registration@544a2ea6]" name="browsersetup" is-config="true" duration-ms="6788" started-at="2022-01-27T11:43:46 IST" finished-at="2022-01-27T11:43:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.nopcommerce.TestCases.TC_003_Registration@544a2ea6]" name="registration" duration-ms="2537" started-at="2022-01-27T11:43:53 IST" finished-at="2022-01-27T11:43:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="errormessages()[pri:0, instance:com.nopcommerce.TestCases.TC_003_Registration@544a2ea6]" name="errormessages" duration-ms="47" started-at="2022-01-27T11:43:56 IST" depends-on-methods="com.nopcommerce.TestCases.TC_003_Registration.registration" finished-at="2022-01-27T11:43:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking error message for First Name]]>
+            </line>
+            <line>
+              <![CDATA[Checking error for Last Name]]>
+            </line>
+            <line>
+              <![CDATA[Cheking for Email]]>
+            </line>
+            <line>
+              <![CDATA[Checking error for Password]]>
+            </line>
+            <line>
+              <![CDATA[Checking error for Confirm Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errormessages -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nopcommerce.TestCases.TC_003_Registration@544a2ea6]" name="teardown" is-config="true" duration-ms="190" started-at="2022-01-27T11:43:56 IST" finished-at="2022-01-27T11:43:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.TestCases.TC_003_Registration -->
+      <class name="com.nopcommerce.TestCases.TC_001_Registration">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.nopcommerce.TestCases.TC_001_Registration@4524411f]" name="browsersetup" is-config="true" duration-ms="8821" started-at="2022-01-27T11:44:11 IST" finished-at="2022-01-27T11:44:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.nopcommerce.TestCases.TC_001_Registration@4524411f]" name="registration" duration-ms="6693" started-at="2022-01-27T11:44:19 IST" finished-at="2022-01-27T11:44:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[entered first name]]>
+            </line>
+            <line>
+              <![CDATA[entered last name]]>
+            </line>
+            <line>
+              <![CDATA[entered email]]>
+            </line>
+            <line>
+              <![CDATA[entered password]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password]]>
+            </line>
+            <line>
+              <![CDATA[Click register button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="successpage()[pri:0, instance:com.nopcommerce.TestCases.TC_001_Registration@4524411f]" name="successpage" duration-ms="37" started-at="2022-01-27T11:44:26 IST" depends-on-methods="com.nopcommerce.TestCases.TC_001_Registration.registration" finished-at="2022-01-27T11:44:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nopcommerce.TestCases.TC_001_Registration@4524411f]" name="teardown" is-config="true" duration-ms="136" started-at="2022-01-27T11:44:26 IST" finished-at="2022-01-27T11:44:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.TestCases.TC_001_Registration -->
+      <class name="com.nopcommerce.TestCases.TC_004_Registration">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:com.nopcommerce.TestCases.TC_004_Registration@42607a4f]" name="browsersetup" is-config="true" duration-ms="12723" started-at="2022-01-27T11:43:26 IST" finished-at="2022-01-27T11:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.nopcommerce.TestCases.TC_004_Registration@42607a4f]" name="registration" duration-ms="6991" started-at="2022-01-27T11:43:39 IST" finished-at="2022-01-27T11:43:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[entered first name]]>
+            </line>
+            <line>
+              <![CDATA[entered last name]]>
+            </line>
+            <line>
+              <![CDATA[entered email]]>
+            </line>
+            <line>
+              <![CDATA[entered password]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password]]>
+            </line>
+            <line>
+              <![CDATA[Click register button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="emailerror()[pri:0, instance:com.nopcommerce.TestCases.TC_004_Registration@42607a4f]" name="emailerror" duration-ms="89" started-at="2022-01-27T11:43:46 IST" depends-on-methods="com.nopcommerce.TestCases.TC_004_Registration.registration" finished-at="2022-01-27T11:43:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailerror -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nopcommerce.TestCases.TC_004_Registration@42607a4f]" name="teardown" is-config="true" duration-ms="216" started-at="2022-01-27T11:43:46 IST" finished-at="2022-01-27T11:43:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.TestCases.TC_004_Registration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
