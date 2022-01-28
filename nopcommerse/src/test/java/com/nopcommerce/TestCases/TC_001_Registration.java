@@ -38,6 +38,7 @@ public class TC_001_Registration extends BaseClass {
 		
 		Reporter.log("Click register button");
 		rg.clickRegisterbutton();
+		
 
 	}
 	@Test(dependsOnMethods="registration")

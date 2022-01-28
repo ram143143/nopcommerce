@@ -66,6 +66,7 @@ public class RegistrationPage {
 	
 	
 	public void setFirstname(String Fname) {
+		
 		firstname.sendKeys("Naresh");
 	}
 	
